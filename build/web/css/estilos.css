@@ -1,0 +1,32 @@
+body{
+    background-image: url(../images/corofoto_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formulario{
+    background: rgba(89, 185, 110, 0.671);
+    padding: 20px;
+    margin-left: 360px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(65, 62, 62, 0.698);
+    color: white;
+}
+
+.ingresar{
+    background:rgba(65, 62, 62, 0.698) ;
+    color: white;
+}
+
+.olvide{
+    color: rgb(5, 5, 5);
+    text-decoration-style: none;
+    text-decoration-line: none;
+    float: right;
+}
+
+.olvide:hover{
+    color: white;
+    cursor: pointer;
+}

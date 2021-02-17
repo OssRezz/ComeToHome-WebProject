@@ -1,0 +1,481 @@
+/*Inicia Pagina Principal */
+
+.header {
+	height: 130px;
+}
+
+
+.header h1 {
+	font-family: 'Abril Fatface', cursive;
+	text-align: center;
+	max-height: 100%;
+	position: absolute;
+}
+
+.header1 .img {
+	min-height: 200px;
+	max-height: 100%;
+	width: 100px;
+}
+
+body{
+	width: 98.9%;
+}
+
+.main {
+	background-color: #2F9500;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	min-height: 37px;
+	max-height: 400px;
+	margin-top: 10px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.main a {
+	text-decoration: none;
+	color: honeydew;
+	margin: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: 'Playfair Display SC', serif;
+}
+
+.main a:hover {
+	background-color: white;
+	color: orange;
+	padding-top: 4px;
+	padding-bottom: 5px;
+	border-bottom-style: solid;
+	border-width: 1;
+	border-radius: 2px;
+}
+
+.header {  border-right-style: double;
+	border-right-width: 15px;;
+}
+
+.header2 {
+	float: right;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.header2 label {
+	margin-top: 0px;
+	float: center;
+}
+
+.header2 input {
+	border-radius: 10px;
+	width: 90%;
+	border-color: black;
+	padding-right: 25px;
+	max-width: 400px;
+}
+
+.slider {
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	margin-top: 10px;
+	text-align: center;
+	width: 85%;
+	overflow: hidden;
+	background-color:red ;
+}
+
+.slider ul {
+	padding: 0;
+	display: flex;
+	width: 400%;
+	animation: change 20s infinite;
+}
+
+.slider li {
+	list-style: none
+}
+
+
+
+
+
+.center {
+	background-color: #f6f6f6;
+	text-align: center;
+	width: 95%;
+	margin: auto;
+}
+
+.center p {
+	font-size: 15px;
+}
+
+.footer {
+	width: 101.15%;
+	background-color:#2F9500 ;
+	height: auto;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: lightseagreen;
+}
+
+.footer a {
+	color: black;
+}
+
+
+.footerbottom {
+	background-color: lightgray;
+	height: auto;
+	font-size: 15px;
+
+}
+
+.footerbottom a {
+	text-decoration: none;
+	padding-left: 10px;
+}
+
+.footerbottom img {
+	width: 35px;
+	margin-top: 10px;
+}
+
+.footerbottom a :hover{
+	background-color: white;
+	border-radius: 30px;
+}
+
+.footertop {
+	height: 40px;
+	padding-top: 5px;
+}
+
+/*Fin de la Pagina de Inicio */
+
+/*Inicia Pagina De Eventos */
+
+.main-event {
+	background: url(file:///C:/Users/sebastian/Desktop/Aplicacion%20Definitiva%20Casa%20de%20la%20Cultura/images/estee-janssens-zni0zgb3bkQ-unsplash.jpg);
+	height: 700px;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 0;
+}
+
+.main-event::before {
+	content: '';
+	position: absolute;
+	background-color: rgb(48, 45, 45, 0.6);
+	top: 0;
+	bottom: 0;
+	right:0;
+	left:0;
+}
+
+
+.eventittle {
+	background-color: white;
+	font-family: 'Abril Fatface', cursive;
+	margin-left: 20px;
+}
+
+
+.container-event {
+	background-color: rgb(48, 45, 45);
+	box-shadow: 7px 13px 37px white;
+	margin-top: 50px ;
+	margin-left: 650px;
+	position: absolute;
+	height: auto;
+	color: white;
+	width: 400px;
+	padding: 10px;
+}
+
+.container-event h1{
+	text-align: center;
+
+}
+
+.container-event input {
+	display: flex;
+	margin: 5px 70px;
+	padding: 5px;
+	width: 230px;
+	border-radius: 5px;
+	color: black;
+}
+
+.container-event textarea {
+	display: flex;
+	margin: auto;
+	color: black;
+}
+
+
+.container-event .submit {
+	width: auto;
+	color: black;
+	margin: 10px auto;
+}
+
+
+
+.calendar-event {
+	position: absolute;
+	color: white;
+	margin-top: 100px;
+	z-index: 10;
+}	
+
+
+
+.container-program {
+	margin: 30px auto;
+	width: 90%;
+	color: black;
+	display: flex;
+}
+
+
+.program-img {
+	width: 40%;
+	max-width: 60%;
+}
+
+.program-img img {
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	margin-top: 50px;
+}
+
+.program-text {
+	float:right;
+	max-width: 70%;
+	height: auto;
+	width: auto;
+	padding: 20px;
+	margin-left: 50px;
+	font-size: 18px;
+}
+
+.container-art {
+	margin-top: 50px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	padding: 30px;
+}
+
+.art-text {
+	max-width: 60%;
+	font-size: 15px;
+	padding-top: 20px;
+}
+
+.art-img {
+	max-width: 50%;
+}
+
+.art-img img {
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+.container-dance {
+	margin-top: 50px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	padding: 30px;
+	margin-bottom: 50px;
+}
+
+.dance-text {
+	max-width: 60%;
+	font-size: 15px;
+	padding-top: 20px;
+	margin-left: 40px;
+}
+
+.dance-img {
+	max-width: 50%;
+}
+
+.dance-img img {
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	margin-top: 10px;
+}
+
+/* Fin de la pagina de Programas 
+
+inicia la pagina de matricula */
+
+
+
+
+
+.enrollment-content {
+	width: 130%;
+	max-height:500px;
+	margin:auto;
+	text-align: center;
+	margin-top: 50px;
+	background-color: #fafafa;
+	font-size: 15px;
+	margin-bottom: 50px;
+	padding-bottom: 80px;
+	font-family: 'PT Serif', serif;
+}
+
+
+
+.enrollment-tittle {
+	background-color: #f5f5f5;	
+	font-family: 'PT Serif', serif;
+}
+
+.enrollment-text form{	
+	text-align: left;
+	background-color: white;
+	width: auto;
+	margin: auto;
+	padding: 20px;
+	-webkit-box-shadow: 0px 4px 22px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 22px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 22px 0px rgba(0,0,0,0.75);	
+}
+
+.enrollment-text input {
+	min-width: 500px;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 5px;
+	margin: auto;
+	border: 2px solid black;
+	margin-bottom: 10px;
+}
+
+.enrollment-text select {
+	min-width: 525px;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: 2px solid black;
+}
+
+
+.img-enrollment {
+	position: absolute;
+	right: 160px;
+	top: 370px;
+}
+
+/*
+		Inicio pagina de grid
+*/
+
+#sidebar-container {
+	min-height: 100vh;
+}
+
+#sidebar-container .logo {
+	padding: .875rem 1.25rem;
+}
+
+.bg-primary {
+	background-color: #2F9500 !important;
+}
+
+#sidebar-container .menu {
+	width: auto;
+}
+
+.menu i {
+	margin-right: 3px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #f5f5f5;
+}
+
+
+
+.menu a:hover {
+	background-color: white;
+	color: orange !important;
+	border-right: 4px solid orange
+}
+
+
+#containerinicio {
+	margin-top: 30px;
+	overflow-y:auto;
+	padding-bottom:  5rem;
+}
+
+
+
+#contentgrid {height: 100vh;
+	overflow-y:auto;
+	font-size: 15px;
+	padding-left: 30px;
+	padding-bottom: 8rem
+}
+
+
+.shadownav {
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+            box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+/** padina de sedes **/
+
+
+/** termina pagina de sedes **/
+
+/**** Inicia Login ******/
+.fondo-login{
+    background-image: url(../images/corofoto_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formulario{
+    background: rgba(89, 185, 110, 0.671);
+    padding: 20px;
+    margin-left: 360px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(65, 62, 62, 0.698);
+    color: white;
+}
+
+.ingresar{
+    background:rgba(65, 62, 62, 0.698) ;
+    color: white;
+}
+
+/**********Termina Login *********/
+
+/***** Inicia Pagina Registro de Usuarios *************/
+
+/***********Formularios de Registro******************/
+
+
+
+
